@@ -9,9 +9,9 @@ import useLoginModal from "@/app/hooks/useLoginModal";
 import useRegisterModal from "@/app/hooks/useRegisterModal";
 import useRentModal from "@/app/hooks/useRentModal";
 import { SafeUser } from "@/app/types";
+import Avatar from "../Avatar/Avatar";
+import MenuItem from "../MenuItem/MenuItem";
 
-import MenuItem from "./MenuItem";
-import Avatar from "../Avatar";
 
 interface UserMenuProps {
   currentUser?: SafeUser | null
